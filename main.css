@@ -157,9 +157,8 @@ table h4 {
     border-radius: 20px;
 }
 
-.imagini_tabel > h5:hover {
+h5:hover {
     background: linear-gradient(to right,rgba(168, 95, 36, 1), rgba(92, 44, 25, 1)), no-repeat top center;
-    transition: 5s;
 }
 
 .kcal {
