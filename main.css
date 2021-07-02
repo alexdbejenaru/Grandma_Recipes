@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300;1,400&family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.h1_title {
+    margin-bottom: 75px;
+    padding-top: 70px;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 45px;
+    color: darkblue;
+}
+
+.body1 {
+    background-color:#B9CDCB;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#picture1 {
+    margin: auto;
+}
+
+.main-text {
+      text-align: center;
+}
+
+.head2-recipe1 {
+    color: darkslateblue;
+}
+
+
+/* Recipe2 */
+    
+.body2 {
+    background-color: #F2DDCC;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.head2-reteta2 {
+    color: darkblue;
+}
+
+#img1-reteta2 {
+     margin: auto;    
+}
+
+.head1-reteta2 {
+    text-align: center;
+    color:indigo;  
+    padding-top: 75px;
+    margin-bottom: 75px;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 45px;
+}
+
+/*Recipe3*/
+
+.body3 {
+    background-color: #FCAC89;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.h1ret3{
+    color: darkred;
+    padding-top: 75px;
+    margin-bottom: 75px;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 45px;
+}
+
+.h2-reteta3{
+    color: firebrick;
+}
+
+/*Index*/
+
+nav {
+    width: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color:#8EBBA7;
+}
+
+.titlu_index {
+    padding-top: 100px;
+    margin: 0 auto 50px;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 45px;
+}
+
+.tabel_retete {
+    width: 50%;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagini_tabel {
+    background: center / contain no-repeat;
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+table h4 {
+    font-size: 75px;
+    font-family: 'Six Caps', sans-serif;
+    color: rgba(92, 44, 25, 0.8);
+    margin: 50px 100px 50px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#gulas {
+    background-image: url(/images/Gulas1.jpg);
+}
+
+#papanasi {
+    background-image: url(/images/papanasi2.jpg);
+}
+
+#inghetata {
+    background-image: url(/images/inghetata2.jpg);
+}
+
+.imagini_tabel > h5 {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    color: wheat;
+    background: linear-gradient(to right,rgba(168, 95, 36, 0.6), rgba(92, 44, 25, 0.6)), no-repeat top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.imagini_tabel > h5:hover {
+    background: linear-gradient(to right,rgba(168, 95, 36, 1), rgba(92, 44, 25, 1)), no-repeat top center;
+    transition: 5s;
+}
+
+.kcal {
+    padding-right: 100px;
+}
