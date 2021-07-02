@@ -19,8 +19,9 @@ body {
     list-style-position: inside;
 }
 
-#picture1 {
+#picture1, #inghetata_vanilie, #img1-reteta2 {
     margin: auto;
+    border-radius: 20px;
 }
 
 .main-text {
@@ -42,10 +43,6 @@ body {
 
 .head2-reteta2 {
     color: darkblue;
-}
-
-#img1-reteta2 {
-     margin: auto;    
 }
 
 .head1-reteta2 {
